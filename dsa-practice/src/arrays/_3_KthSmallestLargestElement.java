@@ -18,9 +18,11 @@ public class _3_KthSmallestLargestElement {
     public static void main(String[] args) {
         int arr[] = {7, 10, 4, 3, 20, 15}; //after sort [3 4 7 10 15 20]
         int k = 3;
-        findKthSmallestElement(arr, k);
+
         findKthSmallestUsingPriorityQueue(arr, k);
         findKthLargestUsingPriorityQueue(arr, k); //output shd be 10
+
+        findKthSmallestElement(arr, k);
     }
 
     //TC O(N log N)
