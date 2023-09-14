@@ -20,6 +20,8 @@ public class _8_FindFirstNonRepeatingElement {
         findFirstNonRepeating(arr);
     }
 
+    // TC is O(n)
+    //SC is O(n)
     private static void findFirstNonRepeating(int[] arr) {
         Map<Integer, Integer> lookup = new HashMap<>();
 
