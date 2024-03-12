@@ -23,6 +23,8 @@ public class _3_IsomorphicStrings {
         System.out.println("Are input strings isomorphic : " + areIsoMorphicStrings(str1, str2));
     }
 
+    //TC is O(N)
+    //SC is O(N)
     private static boolean areIsoMorphicStrings(String str1, String str2) {
         //use this map to store the unique char mapping for each string
         Map<Character, Character> characterMap = new HashMap<>();
