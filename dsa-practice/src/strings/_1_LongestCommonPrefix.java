@@ -22,7 +22,7 @@ public class _1_LongestCommonPrefix {
         for (int i = 1; i < arr.length; i++) {
 
             //means the arr[i] contains result string, so find the exact string which matches
-            while (arr[i].indexOf(result) != 0) {
+            while (!arr[i].contains(result)) {
                 //here we are trimming last char from string and seeing if it is still a match or not
                 result = result.substring(0, result.length() - 1);
 
