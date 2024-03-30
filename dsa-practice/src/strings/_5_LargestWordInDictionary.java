@@ -1,7 +1,7 @@
 package strings;
 
 /**
- * Giving a dictionary and a string ‘str’, find the longest string in dictionary which can be formed by
+ * Given a dictionary and a string ‘str’, find the longest string in dictionary which can be formed by
  * deleting some characters of the given ‘str’.
  * Input : dict = {"ale", "apple", "monkey", "plea"}
  *         str = "abpcplea"
