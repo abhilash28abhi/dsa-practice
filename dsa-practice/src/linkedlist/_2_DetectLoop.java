@@ -11,7 +11,7 @@ import java.util.Set;
  * Input: 1-->2-->3-->4-->5-->null
  * output: false
  */
-public class DetectLoop {
+public class _2_DetectLoop {
 
     public static void main(String[] args) {
         Node head = new Node(1);

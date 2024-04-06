@@ -6,7 +6,7 @@ package linkedlist;
  * Input: 1-->2-->3-->4-->null, 3
  * Output: 1-->2-->4-->null
  */
-public class DeleteNodeWithoutHead {
+public class _1_DeleteNodeWithoutHead {
 
     public static void main(String[] args) {
         Node head = new Node(1);

@@ -12,7 +12,7 @@ import java.util.Map;
  * Input: 35 -> 15 -> 4 -> 20, N = 4
  * Output: 35
  */
-public class NthNodeFromEnd {
+public class _4_NthNodeFromEnd {
 
     public static void main(String[] args) {
         Node head = new Node(35);

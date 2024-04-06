@@ -12,7 +12,7 @@ package linkedlist;
  * Output: 4
  * Explanation: There are 6 nodes in the linked list, so we have two middle nodes: 3 and 4, but we will return the second middle node which is 4.
  */
-public class MiddleOfLinkedList {
+public class _3_MiddleOfLinkedList {
 
     public static void main(String[] args) {
         Node head = new Node(1);

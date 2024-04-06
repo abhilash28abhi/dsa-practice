@@ -9,7 +9,7 @@ package linkedlist;
  * Output: Linked list should be changed to,
  * 4->3->2->1->NULL
  */
-public class ReverseLinkedList {
+public class _5_ReverseLinkedList {
 
     public static void main(String[] args) {
         Node head = new Node(1);
