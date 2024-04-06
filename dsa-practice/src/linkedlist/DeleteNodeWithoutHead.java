@@ -10,7 +10,6 @@ public class DeleteNodeWithoutHead {
 
     public static void main(String[] args) {
         Node head = new Node(1);
-        Node temp = head;
         head.next = new Node(2);
         Node node3 = new Node(3);
         head.next.next = node3;
