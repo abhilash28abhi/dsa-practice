@@ -9,3 +9,4 @@ Questions on various topics:
 5.  Queues: https://www.geeksforgeeks.org/top-50-problems-on-queue-data-structure-asked-in-sde-interviews/
 6.  Heaps: https://www.geeksforgeeks.org/top-50-problems-on-heap-data-structure-asked-in-interviews/
 7.  Trees: https://www.geeksforgeeks.org/top-50-tree-coding-problems-for-interviews/
+8.  Hashing: https://www.geeksforgeeks.org/top-50-problems-on-hash-data-structure-asked-in-sde-interviews/
