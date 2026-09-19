@@ -10,7 +10,7 @@ package arrays;
 public class _10_LargestSubArraySum {
 
     public static void main(String[] args) {
-        int[] arr = { -2, -3, 4, -1, -2, 1, 5, -3 };
+        int[] arr = {-5,1,-4,-3,8};//{ -2, -3, 4, -1, -2, 1, 5, -3 };
         largestSubArrSum(arr);
     }
 

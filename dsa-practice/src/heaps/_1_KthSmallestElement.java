@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
  * Given an array arr[] of size N and a number K, where K is smaller than the size of the array.
  * Find the K’th smallest, element in the given array. Given that all array elements are distinct.
  *
- * Input: arr[] = {7, 10, 4, 3, 20, 15}, K = 3
+ * Input: arr[] = {7, 10, 4, 3, 20, 15}, K = 3 //3 4 7 10 15 20
  * Output: 7
  *
  * Input: arr[] = {7, 10, 4, 3, 20, 15}, K = 4
@@ -28,7 +28,6 @@ public class _1_KthSmallestElement {
         for (int i = 0; i < k; i++) {
             pq.add(input[i]);
         }
-
         for (int i = k; i < input.length; i++) {
             if (pq.peek() > input[i]) {
                 pq.poll();
